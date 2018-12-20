@@ -2,19 +2,23 @@
   <div id="app">
 <!--     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <saurav></saurav>
+ <!--    <saurav></saurav> -->
+    <navupper></navupper>
+    <navlower></navlower>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import saurav from './components/saurav.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import saurav from './components/saurav.vue'
+import navupper from './components/navupper.vue'
+import navlower from './components/navlower.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
-    saurav
+    navupper,
+    navlower
   }
 }
 </script>
