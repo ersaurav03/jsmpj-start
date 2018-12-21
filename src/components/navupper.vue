@@ -5,34 +5,34 @@
 			<div class="row fontsizees">
 
                                                          <!----------Code for Phone number----------->
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 my-1"> 
+				<div class=" col-sm-12 col-lg-3 my-1"> 
 					<i class="fa fa-phone" aria-hidden="true"></i>998-877-6655
 				</div>
 
                                                          <!--------------Code for email--------------->
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 my-1"> 
-					<i class="fa fa-envelope-o" aria-hidden="true"></i>  @email.com
+				<div class=" col-sm-12 col-lg-3 my-1"> 
+					<i class="far fa-envelope"></i>  @email.com
 				</div>
                            
                                                         <!------Code for space interms of coluns------>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 "> 
+                <div class=" col-sm-12 col-lg-1 "> 
                 </div>
 
                                                         <!--------------Code for icons---------------->
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 my-1"> 
-					<i class="fa fa-twitter-square mr-1" aria-hidden="true"></i>
-					<i class="fa fa-facebook-square mr-1" aria-hidden="true"></i>
-					<i class="fa fa-linkedin-square mr-1" aria-hidden="true"></i>
-					<i class="fa fa-dribbble mr-1" aria-hidden="true"></i>
-					<i class="fa fa-instagram mr-1" aria-hidden="true"></i>
+				<div class=" col-sm-12 col-lg-2 my-1"> 
+					<i class="fab fa-twitter-square mr-1" aria-hidden="true"></i>
+					<i class="fab fa-facebook-square mr-1" aria-hidden="true"></i>
+					<i class="fab fa-linkedin-square mr-1" aria-hidden="true"></i>
+					<i class="fab fa-dribbble mr-1" aria-hidden="true"></i>
+					<i class="fab fa-instagram mr-1" aria-hidden="true"></i>
 				</div> 
 
 				                                        <!------Code for space interms of coluns------>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 "> 
+                <div class=" col-sm-12 col-lg-1 "> 
                 </div>
 
                                                         <!-------------Code for searchbar------------->
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 my-1">   
+				<div class=" col-sm-12 col-lg-2 my-1">   
 					<div class="input-group ">
 						<div class="input-group-append">
 							<input type="text" class="form-control-sm" placeholder="Search">

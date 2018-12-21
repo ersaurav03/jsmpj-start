@@ -1,6 +1,6 @@
 <template>
 	
-<nav class="navbar sticky navbar-expand-sm bg-light navbar-light navtranparent">
+<nav class="navbar sticky-top navbar-expand-sm  navbar-light navtranparent">
 	<div class="container">
 		<a class="navbar-brand" href="#"><img src="../../public/images/logo.png"></a>
 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#id1">
@@ -40,6 +40,6 @@
 <style>
 	div.navtranparent
 	{
-		background-color: rgba(255,255,255,0.3);
+		background-color: rgba(255,255,255,0.6);
 	}
 </style>
