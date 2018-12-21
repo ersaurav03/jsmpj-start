@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-<!--     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
- <!--    <saurav></saurav> -->
+
     <navupper></navupper>
     <navlower></navlower>
     <slider></slider>
@@ -16,12 +14,12 @@
     <brands></brands>
     <purchasenow></purchasenow>
     <footerup></footerup>
+    <footerdown></footerdown>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-// import saurav from './components/saurav.vue'
+
 import navupper from './components/navupper.vue'
 import navlower from './components/navlower.vue'
 import slider from './components/slider.vue'
@@ -34,6 +32,8 @@ import ourteam from './components/ourteam'
 import progressbar from './components/progressbar'
 import brands from './components/brands'
 import purchasenow from './components/purchasenow'
+import footerup from './components/footerup'
+import footerdown from './components/footerdown'
 export default {
   name: 'app',
   components: {
@@ -48,18 +48,10 @@ export default {
     ourteam,
     progressbar,
     brands,
-    purchasenow
+    purchasenow,
+    footerup,
+    footerdown
   }
 }
 </script>
 
-<!-- <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style> -->
