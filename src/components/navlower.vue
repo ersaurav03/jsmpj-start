@@ -30,7 +30,9 @@
 					</ul>
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true">Cart </i></a><!--Apply Vue framework Here-->
+	                       <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true" @click="counter++"></i>{{counter}}</a>
+
+							<!--Apply Vue framework Here-->
 						</li>
 					</ul>
             </div>
@@ -43,3 +45,12 @@
 		background-color: rgba(255,255,255,0.6);
 	}
 </style>
+<script type="text/javascript">
+	export default{
+		data:function(){
+			return {
+				counter:0
+			}
+		}
+	}
+</script>
