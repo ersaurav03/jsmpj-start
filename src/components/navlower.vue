@@ -30,7 +30,7 @@
 					</ul>
 					<ul class="navbar-nav">
 						<li class="nav-item">
-	                       <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true" @click="counter++"></i>{{counter}}</a>
+	                       <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true" @click="counter--"></i>{{counter}}</a>
 
 							<!--Apply Vue framework Here-->
 						</li>
@@ -46,11 +46,20 @@
 	}
 </style>
 <script type="text/javascript">
+
+	import { eventBus } from '../main';
+	import amazingworks from './amazingworks.vue';
 	export default{
 		data:function(){
 			return {
 				counter:0
 			}
+		},
+		created()
+		{
+		eventBus.$on('counter',(data) => {
+        this.counter = data;
+		})	
 		}
 	}
 </script>
